@@ -49,7 +49,7 @@
 
 <div class="center-column mt-5">
 
-	<form method="POST" action="/">
+	<form method="POST">
 		{% csrf_token %}
 		{{form.title}}
 		<input class="btn btn-info" type="submit" name="Create Task">
